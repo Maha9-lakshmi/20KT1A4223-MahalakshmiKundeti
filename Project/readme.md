@@ -1,1 +1,2 @@
-
+The Speech to Sign language translator transforms audio and generates visual gestures for the specified input.We utilized the Speech-to-text API to transform the speech from the microphone to text.NLTK techniques such as tokenization and lemmatization were applied to the modified text.If the relevant text is present in the database, it will generate a movie of sign gestures.If not, it combines the individual letters into sign motions for a word. It also generates vocal gestures for sentences by combining individual word gestures into a single movie.We utilized Flask for the web interface to connect with the user.
+The data was gathered from online sources such as YouTube and the Kaggle dataset (INCLUDE).The videos of sign gestures are included in the ISL dataset.
